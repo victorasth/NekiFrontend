@@ -1,0 +1,85 @@
+.containerModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 5px 8px 8px rgba(0, 0, 0, 0.25);
+    width: 500px;
+    height: auto;
+    overflow: auto;
+}
+
+.headerModal {
+    height: 50px;
+    width: 100%;
+    background-color: #08AFA5;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.titleHeaderModal{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.imgHeaderModal{
+    height: 30px;
+    width:90px;
+    display: flex;
+    margin-right: 15px;
+}
+
+.mainModal {
+    padding: 20px;
+}
+
+.containerBtn{
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.registerSkill{
+    background-color: #08AFA5 !important;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.closeModal{
+    background-color: red !important;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.confirmModal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px 8px rgba(0, 0, 0, 0.25);
+    width: 500px;
+    height: auto;
+    overflow: auto;
+}

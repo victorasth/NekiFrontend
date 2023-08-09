@@ -1,0 +1,52 @@
+.main {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px; 
+    padding-bottom: 80px; 
+    
+}
+
+.containerPainelSkill{
+    padding: 10px;
+    position: fixed;
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px 8px rgba(0, 0, 0, 0.08); 
+    text-align: center;
+}
+.painelSkill{
+    margin-top: 15px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #08AFA5;
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1000px;
+ 
+}
+
+
+ .card {
+    box-sizing: border-box;
+    box-shadow: 0 5px 8px 8px rgba(0, 0, 0, 0.025)!important;
+    width: 800px;
+    overflow: auto;
+    white-space: normal;
+    
+} ;
